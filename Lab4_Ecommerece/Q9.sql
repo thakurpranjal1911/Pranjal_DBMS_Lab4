@@ -18,3 +18,11 @@ select SUPP_ID, AVG(RAT_RATSTARS) as AverageRating from (
 group by supp_id
 ) as SP_RO_2
 ON S.SUPP_ID = SP_RO_2.SUPP_ID;
+
+======================
+
+Procedure Creation - 'DisplaySupplierDetails'
+
+==============================
+
+call DisplaySupplierDetails();
