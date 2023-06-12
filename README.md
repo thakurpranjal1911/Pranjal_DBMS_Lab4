@@ -1,1 +1,1 @@
-# Pranjal_DBMS_Lab4
+SQL Project to implement basic SQL commands.
